@@ -1,5 +1,9 @@
 Instructions for extra setup
 
+## Emacs
+
+Install Source Code Pro : https://github.com/adobe-fonts/source-code-pro
+
 ## Fish
 
 ```
