@@ -259,6 +259,7 @@ layers configuration. You are free to put any user code."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(avy-keys (quote (113 115 100 102 103 104 106 107 108)))
  '(haskell-hoogle-url "https://www.stackage.org/lts/hoogle?q=%s"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
