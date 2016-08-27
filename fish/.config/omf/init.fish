@@ -1,5 +1,5 @@
 # Load system stuff (autojump and all)
-[ -d /etc/profile.d/ ], and source /etc/profile.d/*.fish
+[ -d /etc/profile.d/ ]; and source /etc/profile.d/*.fish
 
 # SSH stuff on linux
 if [ $XDG_CURRENT_DESKTOP = "GNOME" ]
@@ -10,6 +10,10 @@ end
 # Autojump on the mac
 [ -f /usr/local/share/autojump/autojump.fish ]; and . /usr/local/share/autojump/autojump.fish
 
+
+# virtualfish
+set -x VIRTUAL_ENV_DISABLE_PROMPT 1
+eval (python -m virtualfish auto_activation)
 
 # Nice emacs shortcuts
 function e
